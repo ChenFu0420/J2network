@@ -1,0 +1,14 @@
+.m-logo
+{
+	float: left;
+	width: 165px;
+	 text-indent: -9999px;
+	display: block;
+	font-size: 22px;
+	line-height: 40px;
+	color: #fff;
+	background: url(../img/logo.png) no-repeat left center; 
+	-webkit-background-size: 125px 40px;
+	background-size: 125px 40px;
+	margin-right: 28px;
+}
