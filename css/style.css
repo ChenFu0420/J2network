@@ -33,6 +33,7 @@
 	font-size: 18px;
 	text-align: center;
 	overflow: hidden;
+	padding-bottom: 5px;
 }
 
 .jumbotron
@@ -49,17 +50,17 @@
 }
 .jumbotron h2
 {
-	text-align: center;	
 	color: white;
 	font-family:"微软雅黑";
 	padding-top: 15px;
 	font-size: 40px;
 	display: block;
 	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .jumbotron p
 {
-	text-align: center;	
 	color: white;
 	font-family:"微软雅黑";
 	padding-top: 15px;
@@ -68,8 +69,31 @@
 	font-weight:500;
 	display: block;
 	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .jumbotron a
 {
 	text-align:  center;
+}
+.home-box
+{
+	background: #1a1f2a;
+	padding-bottom: 110px;
+}
+.home-box-hgroup h2 
+{
+	padding-top: 60px;
+	padding-bottom:10px ;
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 25px;
+}
+.home-box-hgroup p
+{
+	font-family: "微软雅黑";
+	color: #737b8a;
+}
+ul li
+{
+	
 }
