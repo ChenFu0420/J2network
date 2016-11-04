@@ -1,8 +1,3 @@
-.hader
-{
-	margin: 0px;
-
-}
 .m-logo
 {
 	float: left;
@@ -17,10 +12,9 @@
 	background-size: 125px 40px;
 	margin-right: 28px;
 }
-.body
+body
 {
-	margin: 0px;
-	padding: 0px;
+	background: black;
 }
 .navbar-toggle
 {
@@ -32,44 +26,5 @@
 	font-family: "微软雅黑";
 	font-size: 18px;
 	text-align: center;
-	overflow: hidden;
-}
-
-.jumbotron
-{
-	
-	background: url(../img/banner1.jpg) no-repeat ;
-	padding: 340px;
-	margin: -15px;
-	background-size:100% 100%;
-}
-.container-fluid .jumbotron
-{
-	border-radius: 0px;
-}
-.jumbotron h2
-{
-	text-align: center;	
-	color: white;
-	font-family:"微软雅黑";
-	padding-top: 15px;
-	font-size: 40px;
-	display: block;
-	text-overflow: ellipsis;
-}
-.jumbotron p
-{
-	text-align: center;	
-	color: white;
-	font-family:"微软雅黑";
-	padding-top: 15px;
-	font-size: 30px;
-	overflow: hidden;
-	font-weight:500;
-	display: block;
-	text-overflow: ellipsis;
-}
-.jumbotron a
-{
-	text-align:  center;
+	margin-left: 50px;
 }
