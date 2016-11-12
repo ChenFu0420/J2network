@@ -11,6 +11,16 @@ Last update : 02 Juni  2016
 /*
 Typography
 =========================== */
+<<<<<<< HEAD
+=======
+html,body {
+    width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+>>>>>>> origin/master
 
 body {
     font-family: 'Open Sans', sans-serif;

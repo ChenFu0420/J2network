@@ -126,6 +126,7 @@
 		margin: 25px 0 15px 0;
 		font-family: "微软雅黑";	
 	}
+<<<<<<< HEAD
 }
 
 @media  screen and (max-width:479px ) {
@@ -150,6 +151,29 @@
 	}
 }
 
+=======
+}
+
+@media  screen and (max-width:479px ) {
+	.jumbotron {
+		height: 380px;
+		padding-top: 120px;
+		text-align: center;
+	}
+	.jumbotron .jumbotron-content h2{
+		font-size: 20px;
+		margin: 0;
+		font-family: "微软雅黑";
+	}
+	.jumbotron .jumbotron-content p{
+		font-size: 15px;
+		padding: 0;
+		margin: 0;
+		font-family: "微软雅黑";
+	}
+}
+
+>>>>>>> origin/master
 .container-fluid .jumbotron
 {
 	border-radius: 0px;
@@ -193,6 +217,7 @@
 	font-size: 24px;
 }
 .home-box-h2 p
+<<<<<<< HEAD
 {
 	font-family: "微软雅黑";
 	color: #737b8a;
@@ -203,6 +228,12 @@
 	list-style: none;
 	float: left;
 	
+=======
+{
+	font-family: "微软雅黑";
+	color: #737b8a;
+	font-size: 14px;
+>>>>>>> origin/master
 }
 .img-responsive
 {
