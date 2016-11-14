@@ -198,17 +198,34 @@
 	color: #737b8a;
 	font-size: 14px;
 }
+.service-box
+{
+	margin-bottom: 25px;
+}
 .service-box ul li
 {
 	list-style: none;
 }
-.img-responsive
+.service-box hgroup  p
 {
-	width: 380px;
-	height: 285px;
+	color: #737b8a;
+	font-family: "微软雅黑";
+}
+.service-box hgroup h2
+{
+	font-size: 24px;
+	font-weight: 200px;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+}
+.partner  li img:hover
+{
+	border: 1px solid #E9E9E9;
+	
 }
 hr
 {
+	padd
 	size: 1px;
 }
 .footer
@@ -217,10 +234,12 @@ hr
 }
 .footer h2 p 
 {
-	
-	
 }
 .footer a
 {
 	padding-right: 0.8;
+}
+.panel-footer
+{
+	background:#0d121b ;
 }
