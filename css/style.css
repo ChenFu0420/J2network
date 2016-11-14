@@ -22,7 +22,10 @@
 	margin: 0px;
 	padding: 0px;
 }
-
+.navbar-toggle
+{
+	back 
+}
 .navbar-brand 
 {
 	color: #28A4C9;
@@ -126,32 +129,6 @@
 		margin: 25px 0 15px 0;
 		font-family: "微软雅黑";	
 	}
-<<<<<<< HEAD
-}
-
-@media  screen and (max-width:479px ) {
-	.jumbotron {
-		height: 220px;
-		padding-top:2px;
-		padding-left: 50px;
-		text-align: center;
-	}
-	.jumbotron .jumbotron-content h2{
-		font-size: 20px;
-		margin: 0;
-		font-family: "微软雅黑";
-		padding-right: 50px;
-	}
-	.jumbotron .jumbotron-content p{
-		font-size: 15px;
-		padding: 0;
-		margin: 0;
-		padding-right: 50px;
-		font-family: "微软雅黑";
-	}
-}
-
-=======
 }
 
 @media  screen and (max-width:479px ) {
@@ -173,7 +150,6 @@
 	}
 }
 
->>>>>>> origin/master
 .container-fluid .jumbotron
 {
 	border-radius: 0px;
@@ -217,26 +193,34 @@
 	font-size: 24px;
 }
 .home-box-h2 p
-<<<<<<< HEAD
 {
 	font-family: "微软雅黑";
 	color: #737b8a;
 	font-size: 14px;
 }
-.cass-list ul li
+.service-box ul li
 {
 	list-style: none;
-	float: left;
-	
-=======
-{
-	font-family: "微软雅黑";
-	color: #737b8a;
-	font-size: 14px;
->>>>>>> origin/master
 }
 .img-responsive
 {
-	width: 385px;
-	height: 280px;
+	width: 380px;
+	height: 285px;
+}
+hr
+{
+	size: 1px;
+}
+.footer
+{
+	background: #2b3242;
+}
+.footer h2 p 
+{
+	
+	
+}
+.footer a
+{
+	padding-right: 0.8;
 }

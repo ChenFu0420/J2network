@@ -679,11 +679,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.navbar.bootsnav.navbar-fixed.navbar-transparent .logo-scrolled,
     nav.navbar.bootsnav.navbar-fixed.no-background .logo-scrolled{
-<<<<<<< HEAD
         display: block;
-=======
-        display: none;
->>>>>>> origin/master
     }
 
     nav.navbar.bootsnav.navbar-fixed.navbar-transparent .logo-display,
