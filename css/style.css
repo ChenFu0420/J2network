@@ -268,3 +268,43 @@ hr
 {
 	padding-right: 5px;
 }
+.h-about
+{
+	background: url(../img/case-bg.jpg) fixed;
+	height: 550px;
+}
+.h-about hgroup h2
+{	
+	padding-top: 250px;
+	font-size: 50px;
+	font-family: "黑体";
+	color: white;
+}
+.h-about hgroup p
+{
+	font-family: "黑体";
+	padding-top: 35px;
+	font-size: 20px;
+}
+.cat-nav
+{
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 40px;
+}
+.cat-nav ul li
+{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+}
+.cat-nav  .active a
+{
+	color: #dd514c;
+}
+.cat-nav p
+{
+	font-size: 12px;
+	margin-bottom: 60px;
+}
