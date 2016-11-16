@@ -218,10 +218,9 @@
 	font-family: "微软雅黑";
 	margin-top: 10px;
 }
-.partner  li img:hover
+.partner  li img
 {
 	border: 1px solid #E9E9E9;
-	
 }
 hr
 {
@@ -242,4 +241,30 @@ hr
 .panel-footer
 {
 	background:#0d121b ;
+}
+.m-contact 
+{
+	background: url(../img/home-bg.jpg) fixed;
+	height: 200px;
+}
+.m-contact hgroup p
+{
+	    color: white;
+	    font-family: "微软雅黑";
+}
+.m-contact hgroup h2
+{
+	color: white;
+	font-size: 1.25em;
+	font-family: "微软雅黑";
+}
+.m-contact ul li
+{
+	list-style: none;
+	color: white;
+	font-size: 16px;
+}
+.m-contact i
+{
+	padding-right: 5px;
 }
