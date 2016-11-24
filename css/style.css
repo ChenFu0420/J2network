@@ -308,3 +308,51 @@ hr
 	font-size: 12px;
 	margin-bottom: 60px;
 }
+.m-about ul li
+{
+	list-style: none;
+}
+.m-about p
+{
+	font-family: "微软雅黑";
+	color: #2b3242;
+	font-size: 16px;
+}
+.m-about li p
+{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	padding-right:30px;
+}
+.m-service-container ul
+{
+	list-style: none;
+	
+}
+.m-service-container h2
+{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: 500px;
+}
+.m-service-list p
+{
+	font-family: "微软雅黑";
+	color: #333333;
+	padding-top: 10px;
+}
+.m-service-list h3
+{
+	font-size: 22px;
+}
+
+.m-service-list li:hover {
+  border: 1px solid #d22e3e;
+  border-left: 10px solid;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.connect-page ul
+{
+	list-style: none;
+}
