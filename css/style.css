@@ -388,3 +388,131 @@ hr
 {
 	list-style: none;
 }
+.m-list-l p
+{
+	color: black;
+}
+
+figure.effect-lily img {
+  width:100%;
+  width:100% ;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  background: url('../images/loading.gif?1440224064') 50% 50% no-repeat;
+}
+figure.effect-lily figcaption {
+  top: auto;
+  bottom: 0;
+  text-align: left;
+}
+figure.effect-lily h3, figure.effect-lily p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+figure.effect-lily h3 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+figure.effect-lily p {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+figure.effect-lily:hover img, figure.effect-lily:hover p {
+  opacity: 1;
+}
+figure.effect-lily:hover img, figure.effect-lily:hover h3, figure.effect-lily:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #fff;
+}
+figure.effect-lily:hover img {
+  opacity: .4;
+}
+figure.effect-lily:hover p {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+
+.m-case-list li {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+.m-case-list li figure {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  background: #000;
+  text-align: center;
+  cursor: pointer;
+}
+.m-case-list li figure img {
+  position: relative;
+  display: block;
+}
+.m-case-list li figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-top: 120px;
+}
+.m-case-list li figure figcaption::before, .m-case-list li figure figcaption::after {
+  pointer-events: none;
+}
+.m-case-list li figure figcaption, .m-case-list li figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.m-case-list li figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+.m-case-list li figure h3 {
+  word-spacing: -0.15em;
+  font-weight: 200;
+  font-family: "微软雅黑";
+  font-size: 20px;
+  
+}
+.m-case-list li figure h3 span {
+  font-weight: 800;
+}
+.m-case-list li figure h3, .m-case-list li figure p {
+  margin: 0;
+}
+.m-case-list li figure p {
+  letter-spacing: 1px;
+  font-size: 80%;
+}
+
+.m-connect-infobox {
+  border: 1px solid #D8D8D8;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px 0;
+  text-align: center;
+}
+.m-connect-infobox:hover {
+  border: 1px solid #0d121b;
+  background: #1a1f2a;
+  color: #fff;
+}
+.connect-us
+{
+	padding-bottom: 50px;
+}
