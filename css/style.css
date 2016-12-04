@@ -379,3 +379,12 @@ hr
 	font-family: "微软雅黑";
 	font-size: 16px;
 }
+.product-banner
+{
+		background: url(../img/case-bg.jpg) fixed;
+		height: 550px;
+}
+.m-list ul li
+{
+	list-style: none;
+}
